@@ -25,9 +25,8 @@ public class TennisCoach implements Coach {
 	}
 
 	@Autowired
-	//define a setter method
-	public void setFortuneService(FortuneService theFortuneService) {
-		System.out.println(">> TennisCoach: inside setFortuneService() method");
+	public void doSomeCrazyStuff(FortuneService theFortuneService) {
+		System.out.println(">> TennisCoach: inside doSomeCrazyStuff() method");
 		this.fortuneService = theFortuneService;
 	}
 
