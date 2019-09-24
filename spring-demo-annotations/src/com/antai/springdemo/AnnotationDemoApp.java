@@ -21,5 +21,4 @@ public class AnnotationDemoApp {
 		//close the context
 		context.close();
 	}
-
 }
